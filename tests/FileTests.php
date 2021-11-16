@@ -14,7 +14,7 @@ class FileTests extends TestCase
     public function setup()
     {
         clearstatcache();
-        $fs = new Adapter\Local(__DIR__ . '/');
+        $fs = new Skreib\Flysystem\Adapter\Local(__DIR__ . '/');
         $fs->deleteDir('files');
         $fs->createDir('files', new Config());
         $fs->write('file.txt', 'contents', new Config());
