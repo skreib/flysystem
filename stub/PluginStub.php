@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Stub;
+namespace Skreib\Flysystem\Stub;
 
-use League\Flysystem\FilesystemInterface;
-use League\Flysystem\PluginInterface;
+use Skreib\Flysystem\FilesystemInterface;
+use Skreib\Flysystem\PluginInterface;
 
 class PluginStub implements PluginInterface
 {

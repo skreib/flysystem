@@ -1,8 +1,8 @@
 <?php
 
-namespace League\Flysystem\Stub;
+namespace Skreib\Flysystem\Stub;
 
-use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
+use Skreib\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
 
 class NotSupportingVisibilityStub
 {

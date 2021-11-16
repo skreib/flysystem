@@ -1,11 +1,11 @@
 <?php
 
-use League\Flysystem\Adapter\Local;
-use League\Flysystem\File;
-use League\Flysystem\Filesystem;
-use League\Flysystem\FilesystemInterface;
-use League\Flysystem\PluginInterface;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Adapter\Local;
+use Skreib\Flysystem\File;
+use Skreib\Flysystem\Filesystem;
+use Skreib\Flysystem\FilesystemInterface;
+use Skreib\Flysystem\PluginInterface;
 
 class MyPlugin implements PluginInterface
 {

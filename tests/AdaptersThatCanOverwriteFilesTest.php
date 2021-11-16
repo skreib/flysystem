@@ -1,10 +1,10 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Filesystem;
-use League\Flysystem\Stub\FileOverwritingAdapterStub;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Filesystem;
+use Skreib\Flysystem\Stub\FileOverwritingAdapterStub;
 
 class AdaptersThatCanOverwriteFilesTest extends TestCase
 {

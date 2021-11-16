@@ -1,10 +1,10 @@
 <?php
 
-namespace League\Flysystem\Stub;
+namespace Skreib\Flysystem\Stub;
 
-use League\Flysystem\Adapter\CanOverwriteFiles;
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Config;
+use Skreib\Flysystem\Adapter\CanOverwriteFiles;
+use Skreib\Flysystem\AdapterInterface;
+use Skreib\Flysystem\Config;
 
 /**
  * @codeCoverageIgnore

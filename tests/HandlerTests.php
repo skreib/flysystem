@@ -1,8 +1,8 @@
 <?php
 
-use League\Flysystem\Directory;
-use League\Flysystem\File;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Directory;
+use Skreib\Flysystem\File;
 
 class HandlerTests extends TestCase
 {

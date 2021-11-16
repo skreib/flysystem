@@ -1,11 +1,9 @@
 <?php
 
-use League\Flysystem\Adapter\Local;
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Filesystem;
-use League\Flysystem\FilesystemInterface;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
+use Skreib\Flysystem\Adapter\Local;
+use Skreib\Flysystem\Filesystem;
 
 class FlysystemStreamTests extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Plugin\ForcedRename;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\ForcedRename;
 
 class ForcedRenamePluginTests extends TestCase
 {

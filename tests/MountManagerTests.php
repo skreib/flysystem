@@ -1,14 +1,14 @@
 <?php
 
-use League\Flysystem\Adapter\Local;
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Filesystem;
-use League\Flysystem\FilesystemInterface;
-use League\Flysystem\MountManager;
-use League\Flysystem\Plugin\ListWith;
-use League\Flysystem\Stub\FilesystemSpy;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
+use Skreib\Flysystem\Adapter\Local;
+use Skreib\Flysystem\AdapterInterface;
+use Skreib\Flysystem\Filesystem;
+use Skreib\Flysystem\FilesystemInterface;
+use Skreib\Flysystem\MountManager;
+use Skreib\Flysystem\Plugin\ListWith;
+use Skreib\Flysystem\Stub\FilesystemSpy;
 
 class MountManagerTests extends TestCase
 {

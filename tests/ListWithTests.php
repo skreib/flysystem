@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Plugin\ListWith;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\ListWith;
 
 class ListWithTests extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
 use DateTime;
 use ErrorException;
-use League\Flysystem\Config;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
 
 function ftp_systype($connection)
 {
@@ -866,7 +866,7 @@ class FtpTests extends TestCase
 
     /**
      * @depends testInstantiable
-     * @expectedException \League\Flysystem\NotSupportedException
+     * @expectedException \Skreib\Flysystem\NotSupportedException
      */
     public function testItThrowsAnExceptionWhenAnInvalidSystemTypeIsSet()
     {

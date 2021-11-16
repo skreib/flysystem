@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Stub\StreamedReadingStub;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Stub\StreamedReadingStub;
 
 class StreamedReadingTraitTests extends TestCase
 {

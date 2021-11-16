@@ -1,10 +1,10 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Config;
-use League\Flysystem\Stub\StreamedWritingStub;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\Stub\StreamedWritingStub;
 
 class StreamedWritingPolyfillTests extends TestCase
 {

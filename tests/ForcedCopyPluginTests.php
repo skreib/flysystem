@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Plugin\ForcedCopy;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\ForcedCopy;
 
 class ForcedCopyPluginTests extends TestCase
 {

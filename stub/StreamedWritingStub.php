@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Stub;
+namespace Skreib\Flysystem\Stub;
 
-use League\Flysystem\Adapter\Polyfill\StreamedWritingTrait;
-use League\Flysystem\Config;
+use Skreib\Flysystem\Adapter\Polyfill\StreamedWritingTrait;
+use Skreib\Flysystem\Config;
 
 class StreamedWritingStub
 {

@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Adapter\Ftpd;
-use League\Flysystem\AdapterInterface;
+use Skreib\Flysystem\Adapter\Ftpd;
+use Skreib\Flysystem\AdapterInterface;
 
 include_once __DIR__ . '/FtpIntegrationTestCase.php';
 

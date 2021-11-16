@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Config;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
 
 class ConfigTests extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Plugin\GetWithMetadata;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\GetWithMetadata;
 
 class GetWithMetadataTests extends TestCase
 {

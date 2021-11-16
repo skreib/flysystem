@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Flysystem;
+namespace Skreib\Flysystem;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,8 +1,8 @@
 <?php
 
 
-use League\Flysystem\Plugin\EmptyDir;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\EmptyDir;
 
 class EmptyDirPluginTests extends TestCase
 {

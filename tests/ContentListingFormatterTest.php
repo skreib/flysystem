@@ -1,10 +1,10 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Util;
-use League\Flysystem\Util\ContentListingFormatter;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Util;
+use Skreib\Flysystem\Util\ContentListingFormatter;
 
 class ContentListingFormatterTest extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Plugin\ListFiles;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\ListFiles;
 
 class ListFilesTests extends TestCase
 {

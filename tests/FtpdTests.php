@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Config;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
 
 class FtpdTests extends TestCase
 {

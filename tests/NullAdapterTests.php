@@ -1,9 +1,9 @@
 <?php
 
-use League\Flysystem\Adapter\NullAdapter;
-use League\Flysystem\Config;
-use League\Flysystem\Filesystem;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Adapter\NullAdapter;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\Filesystem;
 
 class NullAdapterTest extends TestCase
 {
@@ -31,7 +31,7 @@ class NullAdapterTest extends TestCase
     }
 
     /**
-     * @expectedException  \League\Flysystem\FileNotFoundException
+     * @expectedException  \Skreib\Flysystem\FileNotFoundException
      */
     public function testRead()
     {

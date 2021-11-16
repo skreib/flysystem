@@ -1,13 +1,13 @@
 <?php
 
-use League\Flysystem\Config;
-use League\Flysystem\FileNotFoundException;
-use League\Flysystem\Filesystem;
-use League\Flysystem\Util;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\Argument\Token\TypeToken;
 use Prophecy\Prophecy\ObjectProphecy;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FileNotFoundException;
+use Skreib\Flysystem\Filesystem;
+use Skreib\Flysystem\Util;
 
 class FilesystemTests extends TestCase
 {

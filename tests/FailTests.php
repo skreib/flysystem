@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Flysystem\Adapter
+namespace Skreib\Flysystem\Adapter
 {
     function file_put_contents($name)
     {
@@ -21,8 +21,9 @@ namespace League\Flysystem\Adapter
     }
 }
 
-namespace League\Flysystem
+namespace Skreib\Flysystem
 {
+
     use PHPUnit\Framework\TestCase;
 
     class FailTests extends TestCase

@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Util\StreamHasher;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Util\StreamHasher;
 
 class StreamHasherTest extends TestCase
 {

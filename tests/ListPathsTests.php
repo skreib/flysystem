@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Plugin\ListPaths;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Plugin\ListPaths;
 
 class ListPathsTests extends TestCase
 {

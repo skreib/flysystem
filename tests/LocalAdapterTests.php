@@ -1,9 +1,9 @@
 <?php
 
-namespace League\Flysystem\Adapter;
+namespace Skreib\Flysystem\Adapter;
 
-use League\Flysystem\Config;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
 
 function fopen($result, $mode)
 {
@@ -506,7 +506,7 @@ class LocalAdapterTests extends TestCase
     }
 
     /**
-     * @expectedException \League\Flysystem\NotSupportedException
+     * @expectedException \Skreib\Flysystem\NotSupportedException
      */
     public function testLinkCausedUnsupportedException()
     {
@@ -576,7 +576,7 @@ class LocalAdapterTests extends TestCase
     }
 
     /**
-     * @expectedException \League\Flysystem\Exception
+     * @expectedException \Skreib\Flysystem\Exception
      */
     public function testRootDirectoryCreationProblemCausesAnError()
     {
