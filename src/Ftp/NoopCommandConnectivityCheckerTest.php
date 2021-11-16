@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Ftp;
+namespace Skreib\Flysystem\Ftp;
 
-use League\Flysystem\AdapterTestUtilities\RetryOnTestException;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\AdapterTestUtilities\RetryOnTestException;
 
 /**
  * @group ftp

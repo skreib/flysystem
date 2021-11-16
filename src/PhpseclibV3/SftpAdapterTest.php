@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV3;
+namespace Skreib\Flysystem\PhpseclibV3;
 
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToWriteFile;
 use phpseclib3\Net\SFTP;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToWriteFile;
 
 use function class_exists;
 

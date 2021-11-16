@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AsyncAwsS3;
+namespace Skreib\Flysystem\AsyncAwsS3;
 
 use AsyncAws\Core\Exception\Exception;
 use AsyncAws\Core\Exception\Http\NetworkException;

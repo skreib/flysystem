@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AdapterTestUtilities;
+namespace Skreib\Flysystem\AdapterTestUtilities;
+
+use Throwable;
 
 use const PHP_EOL;
 use const STDOUT;
-use Throwable;
 
 /**
  * @codeCoverageIgnore

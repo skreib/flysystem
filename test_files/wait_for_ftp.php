@@ -1,7 +1,7 @@
 <?php
 
-use League\Flysystem\Ftp\FtpConnectionOptions;
-use League\Flysystem\Ftp\FtpConnectionProvider;
+use Skreib\Flysystem\Ftp\FtpConnectionOptions;
+use Skreib\Flysystem\Ftp\FtpConnectionProvider;
 
 include __DIR__ . '/../vendor/autoload.php';
 

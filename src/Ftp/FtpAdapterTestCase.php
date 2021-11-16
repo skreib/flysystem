@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Ftp;
+namespace Skreib\Flysystem\Ftp;
 
 use Generator;
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\Visibility;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToDeleteDirectory;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\Visibility;
 
 /**
  * @group ftp

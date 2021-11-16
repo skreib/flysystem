@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Skreib\Flysystem;
 
 use Generator;
 use IteratorAggregate;
-use League\Flysystem\Local\LocalFilesystemAdapter;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Local\LocalFilesystemAdapter;
 
 /**
  * @group core

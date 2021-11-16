@@ -2,30 +2,30 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AwsS3V3;
+namespace Skreib\Flysystem\AwsS3V3;
 
 use Aws\Api\DateTimeResult;
 use Aws\S3\S3ClientInterface;
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemOperationFailed;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCheckFileExistence;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\Visibility;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
 use Psr\Http\Message\StreamInterface;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\FilesystemOperationFailed;
+use Skreib\Flysystem\PathPrefixer;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCheckFileExistence;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\Visibility;
 use Throwable;
 
 class AwsS3V3Adapter implements FilesystemAdapter

@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\ZipArchive;
+namespace Skreib\Flysystem\ZipArchive;
 
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\UnixVisibility\VisibilityConverter;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\PathPrefixer;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToDeleteDirectory;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Skreib\Flysystem\UnixVisibility\VisibilityConverter;
 use Throwable;
 use ZipArchive;
 
@@ -30,7 +30,6 @@ use function fclose;
 use function fopen;
 use function rewind;
 use function stream_copy_to_stream;
-use function stream_with_contents;
 
 final class ZipArchiveAdapter implements FilesystemAdapter
 {

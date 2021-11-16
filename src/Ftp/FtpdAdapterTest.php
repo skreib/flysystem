@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Ftp;
+namespace Skreib\Flysystem\Ftp;
 
-use League\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\FilesystemAdapter;
 
 /**
  * @group ftpd

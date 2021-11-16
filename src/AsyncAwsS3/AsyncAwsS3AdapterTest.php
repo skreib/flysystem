@@ -2,27 +2,25 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AsyncAwsS3;
+namespace Skreib\Flysystem\AsyncAwsS3;
 
 use AsyncAws\Core\Exception\Http\ClientException;
-
 use AsyncAws\Core\Test\Http\SimpleMockedResponse;
 use AsyncAws\Core\Test\ResultMockFactory;
-
 use AsyncAws\S3\Result\HeadObjectOutput;
 use AsyncAws\S3\Result\PutObjectOutput;
 use AsyncAws\S3\S3Client;
 use AsyncAws\SimpleS3\SimpleS3Client;
 use Exception;
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCheckFileExistence;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCheckFileExistence;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
 
 /**
  * @group aws

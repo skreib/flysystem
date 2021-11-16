@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Ftp;
+namespace Skreib\Flysystem\Ftp;
 
 class ConnectivityCheckerThatCanFail implements ConnectivityChecker
 {

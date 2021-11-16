@@ -2,35 +2,34 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Local;
+namespace Skreib\Flysystem\Local;
 
-use const DIRECTORY_SEPARATOR;
-use const LOCK_EX;
 use DirectoryIterator;
 use FilesystemIterator;
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\SymbolicLinkEncountered;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\UnixVisibility\VisibilityConverter;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\PathPrefixer;
+use Skreib\Flysystem\SymbolicLinkEncountered;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToDeleteDirectory;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Skreib\Flysystem\UnixVisibility\VisibilityConverter;
 use SplFileInfo;
+
 use function chmod;
 use function clearstatcache;
 use function dirname;
@@ -42,6 +41,9 @@ use function is_file;
 use function mkdir;
 use function rename;
 use function stream_copy_to_stream;
+
+use const DIRECTORY_SEPARATOR;
+use const LOCK_EX;
 
 class LocalFilesystemAdapter implements FilesystemAdapter
 {

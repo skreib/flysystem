@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\ZipArchive;
+namespace Skreib\Flysystem\ZipArchive;
 
 use Generator;
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\Visibility;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToDeleteDirectory;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\Visibility;
 
 /**
  * @group zip

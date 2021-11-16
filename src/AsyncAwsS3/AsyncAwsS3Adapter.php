@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AsyncAwsS3;
+namespace Skreib\Flysystem\AsyncAwsS3;
 
 use AsyncAws\Core\Exception\Http\ClientException;
 use AsyncAws\Core\Stream\ResultStream;
@@ -13,22 +13,22 @@ use AsyncAws\S3\ValueObject\CommonPrefix;
 use AsyncAws\S3\ValueObject\ObjectIdentifier;
 use AsyncAws\SimpleS3\SimpleS3Client;
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCheckFileExistence;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\Visibility;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\PathPrefixer;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCheckFileExistence;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\Visibility;
 use Throwable;
 
 class AsyncAwsS3Adapter implements FilesystemAdapter

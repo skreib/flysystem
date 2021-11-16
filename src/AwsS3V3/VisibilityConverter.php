@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AwsS3V3;
+namespace Skreib\Flysystem\AwsS3V3;
 
 interface VisibilityConverter
 {

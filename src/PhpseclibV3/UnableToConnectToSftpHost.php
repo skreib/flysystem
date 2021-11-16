@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV3;
+namespace Skreib\Flysystem\PhpseclibV3;
 
-use League\Flysystem\FilesystemException;
 use RuntimeException;
+use Skreib\Flysystem\FilesystemException;
 
 class UnableToConnectToSftpHost extends RuntimeException implements FilesystemException
 {

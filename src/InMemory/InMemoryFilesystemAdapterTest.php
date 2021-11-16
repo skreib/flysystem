@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\InMemory;
+namespace Skreib\Flysystem\InMemory;
 
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\Visibility;
 use League\MimeTypeDetection\EmptyExtensionToMimeTypeMap;
 use League\MimeTypeDetection\ExtensionMimeTypeDetector;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\Visibility;
 
 /**
  * @group in-memory

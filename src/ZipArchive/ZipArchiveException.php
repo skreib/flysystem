@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\ZipArchive;
+namespace Skreib\Flysystem\ZipArchive;
 
-use League\Flysystem\FilesystemException;
+use Skreib\Flysystem\FilesystemException;
 
 interface ZipArchiveException extends FilesystemException
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\UnixVisibility;
+namespace Skreib\Flysystem\UnixVisibility;
 
-use League\Flysystem\InvalidVisibilityProvided;
-use League\Flysystem\Visibility;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\InvalidVisibilityProvided;
+use Skreib\Flysystem\Visibility;
 
 /**
  * @group unix-visibility

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV2;
+namespace Skreib\Flysystem\PhpseclibV2;
 
 use phpseclib\Crypt\RSA;
 use phpseclib\Net\SFTP;

@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV2;
+namespace Skreib\Flysystem\PhpseclibV2;
 
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemException;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\UnixVisibility\VisibilityConverter;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
 use phpseclib\Net\SFTP;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\FilesystemException;
+use Skreib\Flysystem\PathPrefixer;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Skreib\Flysystem\UnixVisibility\VisibilityConverter;
 use Throwable;
 
 class SftpAdapter implements FilesystemAdapter

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV3;
+namespace Skreib\Flysystem\PhpseclibV3;
 
 use phpseclib3\Net\SFTP;
 

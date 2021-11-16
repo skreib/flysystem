@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\UnixVisibility;
+namespace Skreib\Flysystem\UnixVisibility;
 
-use League\Flysystem\PortableVisibilityGuard;
-use League\Flysystem\Visibility;
+use Skreib\Flysystem\PortableVisibilityGuard;
+use Skreib\Flysystem\Visibility;
 
 class PortableVisibilityConverter implements VisibilityConverter
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PhpseclibV2;
+namespace Skreib\Flysystem\PhpseclibV2;
 
-use League\Flysystem\FilesystemException;
 use RuntimeException;
+use Skreib\Flysystem\FilesystemException;
 
 class UnableToLoadPrivateKey extends RuntimeException implements FilesystemException
 {

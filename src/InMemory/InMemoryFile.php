@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\InMemory;
+namespace Skreib\Flysystem\InMemory;
+
+use finfo;
 
 use const FILEINFO_MIME_TYPE;
-use finfo;
 
 /**
  * @internal

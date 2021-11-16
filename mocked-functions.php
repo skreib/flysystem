@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Flysystem\Local {
+namespace Skreib\Flysystem\Local {
     function rmdir(...$arguments)
     {
         if ( ! is_mocked('rmdir')) {
@@ -38,7 +38,7 @@ namespace League\Flysystem\Local {
     }
 }
 
-namespace League\Flysystem\InMemory {
+namespace Skreib\Flysystem\InMemory {
     function time() {
         if ( ! is_mocked('time')) {
             return \time();
@@ -48,7 +48,7 @@ namespace League\Flysystem\InMemory {
     }
 }
 
-namespace League\Flysystem\Ftp {
+namespace Skreib\Flysystem\Ftp {
     function ftp_raw(...$arguments)
     {
         if ( ! is_mocked('ftp_raw')) {
@@ -140,7 +140,7 @@ namespace League\Flysystem\Ftp {
     }
 }
 
-namespace League\Flysystem\ZipArchive {
+namespace Skreib\Flysystem\ZipArchive {
     function stream_get_contents(...$arguments) {
         if ( ! is_mocked('stream_get_contents')) {
             return \stream_get_contents(...$arguments);

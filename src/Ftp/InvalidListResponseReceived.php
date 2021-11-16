@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Ftp;
+namespace Skreib\Flysystem\Ftp;
 
-use League\Flysystem\FilesystemException;
 use RuntimeException;
+use Skreib\Flysystem\FilesystemException;
 
 class InvalidListResponseReceived extends RuntimeException implements FilesystemException
 {

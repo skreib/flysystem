@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Local;
+namespace Skreib\Flysystem\Local;
 
-use const LOCK_EX;
-use League\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\SymbolicLinkEncountered;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\Visibility;
 use League\MimeTypeDetection\EmptyExtensionToMimeTypeMap;
 use League\MimeTypeDetection\ExtensionMimeTypeDetector;
+use Skreib\Flysystem\AdapterTestUtilities\FilesystemAdapterTestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\SymbolicLinkEncountered;
+use Skreib\Flysystem\UnableToCopyFile;
+use Skreib\Flysystem\UnableToCreateDirectory;
+use Skreib\Flysystem\UnableToDeleteDirectory;
+use Skreib\Flysystem\UnableToDeleteFile;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\UnableToWriteFile;
+use Skreib\Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Skreib\Flysystem\Visibility;
 use Traversable;
+
 use function file_get_contents;
 use function file_put_contents;
 use function fileperms;
@@ -31,6 +31,8 @@ use function is_resource;
 use function iterator_to_array;
 use function mkdir;
 use function symlink;
+
+use const LOCK_EX;
 
 /**
  * @group local

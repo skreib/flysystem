@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AdapterTestUtilities;
+namespace Skreib\Flysystem\AdapterTestUtilities;
 
-use League\Flysystem\Config;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemOperationFailed;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\FilesystemOperationFailed;
 
 class ExceptionThrowingFilesystemAdapter implements FilesystemAdapter
 {

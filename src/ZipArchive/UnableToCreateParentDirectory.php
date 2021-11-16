@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\ZipArchive;
+namespace Skreib\Flysystem\ZipArchive;
 
 use RuntimeException;
 

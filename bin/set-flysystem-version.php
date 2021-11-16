@@ -1,9 +1,9 @@
 <?php
 
-use League\Flysystem\FileAttributes;
-use League\Flysystem\Filesystem;
-use League\Flysystem\Local\LocalFilesystemAdapter;
-use League\Flysystem\StorageAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\Filesystem;
+use Skreib\Flysystem\Local\LocalFilesystemAdapter;
+use Skreib\Flysystem\StorageAttributes;
 
 include_once __DIR__.'/tools.php';
 

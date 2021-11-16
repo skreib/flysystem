@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AsyncAwsS3;
+namespace Skreib\Flysystem\AsyncAwsS3;
 
 use AsyncAws\S3\ValueObject\Grant;
-use League\Flysystem\Visibility;
+use Skreib\Flysystem\Visibility;
 
 class PortableVisibilityConverter implements VisibilityConverter
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Skreib\Flysystem;
 
 interface FilesystemOperationFailed extends FilesystemException
 {

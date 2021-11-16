@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AwsS3V3;
+namespace Skreib\Flysystem\AwsS3V3;
 
 use Aws\Command;
 use Aws\CommandInterface;
@@ -11,7 +11,6 @@ use Aws\S3\Exception\S3Exception;
 use Aws\S3\S3ClientInterface;
 use Aws\S3\S3ClientTrait;
 use GuzzleHttp\Psr7\Response;
-
 use Throwable;
 
 use function GuzzleHttp\Promise\promise_for;

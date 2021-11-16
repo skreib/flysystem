@@ -2,23 +2,25 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AdapterTestUtilities;
+namespace Skreib\Flysystem\AdapterTestUtilities;
+
+use Generator;
+use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\Config;
+use Skreib\Flysystem\DirectoryAttributes;
+use Skreib\Flysystem\FileAttributes;
+use Skreib\Flysystem\FilesystemAdapter;
+use Skreib\Flysystem\StorageAttributes;
+use Skreib\Flysystem\UnableToMoveFile;
+use Skreib\Flysystem\UnableToReadFile;
+use Skreib\Flysystem\UnableToRetrieveMetadata;
+use Skreib\Flysystem\UnableToSetVisibility;
+use Skreib\Flysystem\Visibility;
+use Throwable;
+
+use function file_get_contents;
 
 use const PHP_EOL;
-use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\Visibility;
-use PHPUnit\Framework\TestCase;
-use Throwable;
-use function file_get_contents;
 
 /**
  * @codeCoverageIgnore

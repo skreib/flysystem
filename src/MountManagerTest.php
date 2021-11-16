@@ -1,10 +1,10 @@
 <?php
 
-namespace League\Flysystem;
+namespace Skreib\Flysystem;
 
-use League\Flysystem\AdapterTestUtilities\ExceptionThrowingFilesystemAdapter;
-use League\Flysystem\InMemory\InMemoryFilesystemAdapter;
 use PHPUnit\Framework\TestCase;
+use Skreib\Flysystem\AdapterTestUtilities\ExceptionThrowingFilesystemAdapter;
+use Skreib\Flysystem\InMemory\InMemoryFilesystemAdapter;
 
 use function is_resource;
 use function tmpfile;

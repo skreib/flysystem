@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\GoogleCloudStorage;
+namespace Skreib\Flysystem\GoogleCloudStorage;
 
 use Google\Cloud\Storage\Connection\ConnectionInterface;
 use Google\Cloud\Storage\StorageObject;

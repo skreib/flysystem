@@ -1,8 +1,8 @@
 <?php
 
-use League\Flysystem\PhpseclibV2\SftpConnectionProvider as V2Provider;
-use League\Flysystem\PhpseclibV3\SftpConnectionProvider as V3Provider;
 use phpseclib3\Net\SFTP;
+use Skreib\Flysystem\PhpseclibV2\SftpConnectionProvider as V2Provider;
+use Skreib\Flysystem\PhpseclibV3\SftpConnectionProvider as V3Provider;
 
 include __DIR__ . '/../vendor/autoload.php';
 
