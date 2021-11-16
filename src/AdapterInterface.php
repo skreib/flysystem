@@ -25,6 +25,7 @@ interface AdapterInterface extends ReadInterface
      */
     public function write($path, $contents, Config $config);
 
+    public function test();
     /**
      * Write a new file using a stream.
      *
